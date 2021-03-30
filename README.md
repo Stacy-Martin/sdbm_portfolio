@@ -12,7 +12,7 @@ The following screenshot provides a preview of the website appearance:
 
 ![]()
 
-Visit the app live at https://stacy-martin.github.io/XXXXXX/
+Visit the app live at https://stacy-martin.github.io/sdbm_portfolio/ 
 
 
 I am always grateful for feedback! 
