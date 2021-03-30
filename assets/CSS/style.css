@@ -18,68 +18,106 @@ body {
     font-style: normal;
     font-weight: 500;
     padding: 20pt;
+    /* color: #c5cbe3; */
 }
 
+a {
+    color: #c5cbe3;
+    padding: 20pt;
+}
 
+#myName {
+    font-family: reklame-script, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40pt;
+    color: #c5cbe3;
+    /* justify-content: left;
+    align-items: flex-start;
+    text-justify: left; */
+}
 
+#basics {
+    font-family: reklame-script, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20pt;
+    color: #c5cbe3;
+}
 
+/* this is my photo clipped into a polygon */
+.mug_shot1 {
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    float: left;
+    border: none;
+  }
 
+/* this is the color when the mouse hovers over the nav bar buttons */
+.navBar:hover {color: #e27d60}
+
+/* Sunset image */
+#BackgroundImg {
+    min-height: 60vh;
+  }
+
+/* styling the footer */
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: reklame-script, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    color: #5e2c04;
+    margin: 0;
+    letter-spacing: 2pt;
+    text-align: center;
+  }
+
+  
 /* * {box-sizing:border-box} */
 
 /* body {
   background-color: #f3f4fc;
   margin:inherit;
 } */
-
+/* 
 header{
   float:left;
   display: flex;
   padding: 15px;
   margin: 0;
-}
+} */
 
-/* this is my photo clipped into a polygon */
-.mug_shot1 {
-  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
-  float: left;
-  border: none;
-}
+
 
 /* styling the nav bar */
-nav {
+/* nav {
   display: flex;
   margin-left: 50px;
   float:right;
   text-align: right;
   justify-content: right;
   margin-left: 250px;
-}
+} */
+
 /* Links to About Me, Experience, Contact, Resume */
-header nav a {
+/* header nav a {
   font-size: 34px;
   font-family: reklame-script, sans-serif;
   font-style: normal;
   font-weight: 400;
   padding: 10px;
   color: #c5cbe3;
-}
+} */
 
-/* this is the color when the mouse hovers over the nav bar buttons */
-nav a:hover {color: #e27d60}
 
-/* Sunset image */
-#BackgroundImg {
-  background-image: url("../Images/32-325791_free-high-resolution-graphic-backgrounds-high-resolution-abstract.jpg");
-  background-attachment: fixed;  
-  /* background-size:cover; */
-  min-height: 80vh;
-  text-align: center;
-  display: block;
-  padding-top: 0px;
-}
+
+
 
 /* Stacy Martin  */
-section h1 {
+/* section h1 {
   font-size: 50pt;
   font-family: reklame-script, sans-serif;
   font-style: normal;
@@ -91,10 +129,10 @@ section h1 {
   align-items: center;
   float: center;
   margin: 0px;
-}
+} */
 
 /* my brief description */
-section h2 {
+/* section h2 {
   font-size: 30pt;
   font-family: reklame-script, sans-serif;
   font-style: normal;
@@ -104,10 +142,10 @@ section h2 {
   float:center;
   line-height: 20pt;
   align-items: right;
-}
+} */
 
 /* "About Me header */
-.Details {
+/* .Details {
   color: #ff8000;
   font-family: korolev, sans-serif;
   font-style: normal;
@@ -116,19 +154,19 @@ section h2 {
   display:flex;
   margin: 10px;
   margin-left: 20px;
-}
+} */
 
 /* About me text */
-h3 {
+/* h3 {
   padding: 30px;
   font-size: 28pt;
   color: #ff8000;
   align-items: center;
   flex-wrap: wrap;
-}
+} */
 
 /* this is the container for my experience section links */
-.container {
+/* .container {
   display: grid;
   grid-template-columns: 50px,50px,50px,50px,50px;
   grid-template-rows: 50px, 50px;
@@ -139,9 +177,9 @@ h3 {
   row-gap: 5px;
   padding: 40px;
   justify-items: stretch;
-}
+} */
 
-.item-a {
+/* .item-a {
   grid-area: main;
   justify-self: stretch;
   justify-items: stretch;
@@ -165,10 +203,10 @@ h3 {
 .item-e {
   grid-area: sidebar2;
   justify-self: stretch;
-}
+} */
 
 /* logo buttons for different contacts */
-.contact {
+/* .contact {
   display: flex;
   justify-content: space-between;
   padding: 30px;
@@ -176,46 +214,33 @@ h3 {
   left: 0;
   bottom: 100px;
   width: 100%;
-}
+} */
 
 /* putting the mustard border on the experience image buttons */
-img {
+/* img {
   border-radius: 5%;
   border: 3px solid #dddf10;
-}
+} */
 
-/* styling the footer */
-footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  font-family: reklame-script, sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  color: #5e2c04;
-  margin: 0;
-  letter-spacing: 2pt;
-  text-align: center;
-}
 
-footer h5 {
+
+/* footer h5 {
   padding: 0px;
   font-size: 16pt;
   margin: 0;
-}
+} */
 
-footer h6 {
+/* footer h6 {
   padding: 0px;
   clear: both;
   font-size: 12pt;
   margin-top: 5px;
-}
+} */
 
 /* this prevents some browser defaults */
-a:-webkit-any-link {
+/* a:-webkit-any-link {
   text-decoration: none;
-}
+} */
 
 /* mobile devices */
 /* @media screen and (min-width: 320px) and (max-width: 480px) {
