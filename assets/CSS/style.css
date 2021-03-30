@@ -21,11 +21,13 @@ body {
     min-height: 60vh;
 }
 
+/* nav bar */
 a {
     color: #c5cbe3;
     padding: 20pt;
 }
 
+/* header my name */
 #myName {
     font-family: reklame-script, sans-serif;
     font-style: normal;
@@ -33,11 +35,9 @@ a {
     font-size: 60pt;
     color: #c5cbe3;
     padding: 10pt;
-    /* justify-content: left;
-    align-items: flex-start;
-    text-justify: left; */
 }
 
+/* header description */
 #basics {
     font-family: korolev, sans-serif;
     font-style: normal;
@@ -51,31 +51,10 @@ a {
 .mug_shot1 {
     clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
     float: left;
-    /* box-shadow: 10px 10px 5px yellow; */
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    /* border: 40px solid #c5cbe3; */
   }
 
 /* this is the color when the mouse hovers over the nav bar buttons */
-.navBar:hover {color: #e27d60}
-
 a:hover {color: #e27d60}
-
-/* Sunset image */
-#BackgroundImg {
-    min-height: 60vh;
-  }
-
-#Projects {
-    margin: 20pt;
-    font-family: korolev, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    /* border: 20pt; */
-}
 
 #AboutMe {
     margin: 20pt;
@@ -85,13 +64,21 @@ a:hover {color: #e27d60}
     align-content: center;
     align-items: center;
     justify-content: center;
+    color: #5e2c04;
 }
 
-.project-description {
-    text-align: center;
+/* paragraph in the about me section */
+#about-me-text {
+    font-size: 14pt;
+    line-height: 2pc;
 }
 
+.project {
+    margin-top: 80pt;;
+}
+/* style the 3 project cards */
 .projectCard {
+    border: 20pt;
     font-family: korolev, sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -100,24 +87,12 @@ a:hover {color: #e27d60}
     padding: 10pt;
 }
 
-#about-me-text {
-    font-family: korolev, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14pt;
+/* add some space under the About Me paragraph */
+.s12 {
+    margin-bottom: 15pt;
 }
 
-card .card-image .card-title {
-    color: #c5cbe3, !important;
-}
-
-/* img { */
-    /* width: 42px; 
-    height: 42px; 
-    border: none */
-    /* float: left; */
-/* } */
-
+/* contact icons */
 #Contact {
     margin: 30pt;
 }
