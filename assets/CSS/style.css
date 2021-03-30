@@ -6,7 +6,7 @@ light white: #fffefd */
 
 
 body {
-    background-color: #fffbee;
+    background-color: #fffefd;
 }
 
 .jumbotron {
@@ -30,8 +30,9 @@ a {
     font-family: reklame-script, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 40pt;
+    font-size: 60pt;
     color: #c5cbe3;
+    padding: 10pt;
     /* justify-content: left;
     align-items: flex-start;
     text-justify: left; */
@@ -41,8 +42,9 @@ a {
     font-family: korolev, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 18pt;
+    font-size: 30pt;
     color: #c5cbe3;
+    padding: 10pt;
 }
 
 /* this is my photo clipped into a polygon */
@@ -69,13 +71,55 @@ a:hover {color: #e27d60}
     font-family: korolev, sans-serif;
     font-style: normal;
     font-weight: 300;
-}.
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    /* border: 20pt; */
+}
 
-img {
+#AboutMe {
+    margin: 20pt;
+    font-family: korolev, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-description {
+    text-align: center;
+}
+
+.projectCard {
+    font-family: korolev, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16pt;
+    color: #c5cbe3;
+    padding: 10pt;
+}
+
+#about-me-text {
+    font-family: korolev, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14pt;
+}
+
+card .card-image .card-title {
+    color: #c5cbe3, !important;
+}
+
+/* img { */
     /* width: 42px; 
     height: 42px; 
     border: none */
     /* float: left; */
+/* } */
+
+#Contact {
+    margin: 30pt;
 }
 
 /* styling the footer */
@@ -86,6 +130,7 @@ footer {
     color: #5e2c04;
     letter-spacing: 2pt;
     text-align: center;
+    margin: 30pt;
   }
 
   

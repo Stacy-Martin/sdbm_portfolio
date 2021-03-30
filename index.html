@@ -28,7 +28,7 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
       <div class="divider"></div>
       <div class="section">
         <h5 class="navBar">
-          <a href="#About Me">About Me</a>
+          <a href="#AboutMe">About Me</a>
           <a href="#Projects">Projects</a>
           <a href="#Contact">Contact</a>
           <a href="resume.html" target="_blank">Resume</a>
@@ -37,103 +37,106 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
       <div class="divider"></div>
       <div class="section headerText">
         <img src="assets/Images/24993_1404599230899_6190704_n.jpg" class="mug_shot1" alt="Stacy Martin photo" width="200" height="200"/>
-        <h5 id="myName">Stacy D Brown-Martin</h5>
-        <h6 id="basics">I am a US and Belize based, full-stack software developer keen to cater to small businesses and non-profits.</h6>
+        <h5 class="flow-text" id="myName">Stacy D Brown-Martin</h5>
+        <h6 class="flow-text" id="basics">I am a US and Belize based, full-stack software developer keen to cater to small businesses and non-profits.</h6>
       </div>
     </section>
 
     <!-- ***************************************************************************** -->
-    <!-- Projects Section -->
-
-    <div class="row" id="Projects">
-    <h3>Featured Projects</h3>
-      <div class="col s4">
-        <!-- Project Content 1 goes here -->
-        <a href="https://cbmartinez42.github.io/boredify-project/">
-          <img
-            src="assets/Images/boredify2screenshot.png"
-            alt="boredify screenshot"
-            style="width: 200px; height: 200px; border: none"/></a>
-        <h5>An app to escape boredom!!</h5>
-      </div>
-
-      <div class="col s4">
-        <!-- Project Content 2 goes here -->
-        <a href="https://stacy-martin.github.io/weather-dashboard/">
-          <img
-            src="assets/Images/Screen Shot 2021-03-28 at 9.16.46 PM.png"
-            alt="Weather Dashboard Screenshot"
-            style="width: 200px; height: 200px; border: none"/></a>
-        <h5>A dynamically updated weather app</h5>
-      </div>
-
-      <div class="col s4">
-        <!-- Project Content 3 goes here -->
-        <a href="https://stacy-martin.github.io/Code-Quiz/">
-          <img
-            src="assets/Images/Screen Shot 2021-03-04 at 2.41.27 AM.png"
-            alt="Code Quiz Screenshot"
-            style="width: 200px; height: 200px; border: none"/></a>
-        <h5>Test your JavaScript skills here!</h5>
-      </div>
-
+    <!-- About Me Section -->
+    <div class="row" id="AboutMe">
+        <h3>About Me</h3>
+          <div class="col s12">
+            <p class="flow-text" id="about-me-text">For me work is not simply a job, it must be gratifying.  That means I always seek out opportunities that are meaningful and challenging.</p> 
+            <p class="flow-text" id="about-me-text">I came from a diverse background before pursuing software development, from degrees in marine science and biology to small business owner.  My most recent business ventures incorporated conservation methods via sustainable tourism into a restaurant and tour company.</p>    
+            <p class="flow-text" id="about-me-text">With an entrepreneurial mindset I can provide experienced support to streamline the web presence small business from both the front and back end.  As a developer I use my project management skills, innovative craftiness, and creative sparks to deliver comprehensive, stylish products to suit the needs of fellow entrepreneurs.</p>
     </div>
+    <!-- ***************************************************************************** -->
+    <!-- Projects Section -->
+    
+    <div class="row" id="Projects">
+        <h3>Featured Projects</h3>
+        <!-- Project Content 1 goes here -->
+        <div class="col s4 card-panel hoverable">
+          <div class="card projectCard">
+            <div class="card-image">
+              <img src="assets/Images/boredify2screenshot.png" alt="boredify screenshot">
+            </div>
+            <div class="card-content">
+              <h4>Boredify</h4>
+              <p>An app to escape boredom!!</p>
+            </div>
+            <div class="card-action">
+              <a href="https://cbmartinez42.github.io/boredify-project/" target="_blank">App link</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project Content 2 goes here -->
+        <div class="col s4 card-panel hoverable">
+            <div class="card projectCard">
+              <div class="card-image">
+                <img src="assets/Images/weather dashboard wide.png" alt="Weather Dashboard Screenshot">
+              </div>
+              <div class="card-content">
+                <h4>Weather Dashboard</h4>
+                <p>A dynamic weather app</p>
+              </div>
+              <div class="card-action">
+                <a href="https://stacy-martin.github.io/weather-dashboard/" target="_blank">App link</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project Content 3 goes here -->
+          <div class="col s4 card-panel hoverable">
+            <div class="card projectCard">
+              <div class="card-image">
+                <img src="assets/Images/Screen Shot 2021-03-04 at 2.41.27 AM.png" alt="Code Quiz Screenshot">
+              </div>
+              <div class="card-content">
+                <h4>JavaScript Code Quiz</h4>
+                <p>Test your JavaScript skills here!</p>
+              </div>
+              <div class="card-action">
+                <a href="https://stacy-martin.github.io/Code-Quiz/" target="_blank">App link</a>
+              </div>
+            </div>
+          </div>
+      </div>
+
 
     <!-- ***************************************************************************** -->
     <!-- Content Section -->
 
     <section class="row" id="Contact">
       <div class="col s2">
-        <a href="mailto:sbrown1031@gmail.com">
-          <img
-            src="assets/Images/google-gmail-128.webp"
-            alt="Gmail Logo"
-            style="width: 42px; height: 42px; border: none"
-        /></a>
+        <a href="mailto:sbrown1031@gmail.com" target="_blank">
+          <img src="assets/Images/google-gmail-128.webp" alt="Gmail Logo" 
+            style="width: 42px; height: 42px; border: none"/></a>
       </div>
       <div class="col s2">
         <a href="tel:+501.622.1484">
-          <img
-            src="assets/Images/phone-call-128.webp"
-            alt="Phone Icon"
-            style="width: 42px; height: 42px; border: none"
-        /></a>
+          <img src="assets/Images/phone-call-128.webp" alt="Phone Icon" 
+            style="width: 42px; height: 42px; border: none"/></a>
       </div>
       <div class="col s2">
         <a href="https://github.com/Stacy-Martin" target="_blank">
-          <img
-            src="assets/Images/github-128.webp"
-            alt="GitHub Logo"
-            style="width: 42px; height: 42px; border: none"
-        /></a>
+          <img src="assets/Images/github-128.webp" alt="GitHub Logo" 
+            style="width: 42px; height: 42px; border: none"/></a>
       </div>
       <div class="col s2">
-        <a
-          href="https://www.linkedin.com/in/stacy-brown-81b198204/"
-          target="_blank"
-        >
-          <img
-            src="assets/Images/Social-media_LinkedIn-128.webp"
-            alt="LinkedIn Logo"
-            style="width: 42px; height: 42px; border: none"
-        /></a>
+        <a href="https://www.linkedin.com/in/stacy-brown-81b198204/"target="_blank">
+          <img src="assets/Images/Social-media_LinkedIn-128.webp" alt="LinkedIn Logo" 
+            style="width: 42px; height: 42px; border: none"/></a>
       </div>
       <div class="col s2">
-        <a
-          href="https://api.whatsapp.com/send?phone=5016221484"
-          target="_blank"
-        >
-          <img
-            src="assets/Images/social_media_applications_23-whatsapp-128.webp"
-            alt="WhatsApp logo"
-            style="width: 42px; height: 42px; border: none"
-        /></a>
+        <a href="https://api.whatsapp.com/send?phone=5016221484" target="_blank">
+          <img src="assets/Images/social_media_applications_23-whatsapp-128.webp" alt="WhatsApp logo" 
+            style="width: 42px; height: 42px; border: none"/></a>
       </div>
       <div class="col s2">
         <a href="https://www.facebook.com/kaimanimarinetours" target="_blank">
-          <img src="assets/Images/Colored_Facebook3_svg-128.webp" alt'"Facebook
-          Logo" style="width:42px;height:42px;border: none;"></a
-        >
+          <img src="assets/Images/Colored_Facebook3_svg-128.webp" alt'"Facebook Logo" 
+            style="width:42px;height:42px;border: none"></a>
       </div>
     </section>
 
@@ -141,8 +144,8 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
     <!-- Footer Section -->
 
     <footer>
-      <h5>sbrown1031@gmail.com ❤️️ +501.622.1484</h5>
-      <h6>2021 Kaimani</h6>
+      <h5>sbrown1031@gmail.com  +501.622.1484</h5>
+      <h6>❤️️ 2021 Kaimani ❤️️</h6>
     </footer>
 
     <!-- Compiled and minified Materialize JavaScript -->
