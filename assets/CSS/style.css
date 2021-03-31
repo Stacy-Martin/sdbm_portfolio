@@ -108,4 +108,18 @@ footer {
     margin: 30pt;
   }
 
-  
+@media only screen and (max-width: 600px){
+
+    .mug_shot1{
+        float:none;
+        justify-self: center;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+
+    .card-content {
+        height: 250px
+    }
+}
